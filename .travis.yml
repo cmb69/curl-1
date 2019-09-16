@@ -1,7 +1,7 @@
-language: c
+language: c, go
 sudo: required
 go:
-    master
+    "1.13"
 cache:
     directories:
         - $HOME/wolfssl-4.0.0-stable
